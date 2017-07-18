@@ -15,6 +15,9 @@
 		5B0B94BD1F1AC25A008BFFB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0B94BB1F1AC25A008BFFB0 /* LaunchScreen.storyboard */; };
 		5B0B94C81F1AC25A008BFFB0 /* PUNKBeersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B94C71F1AC25A008BFFB0 /* PUNKBeersTests.swift */; };
 		5B0B94D31F1AC25A008BFFB0 /* PUNKBeersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B94D21F1AC25A008BFFB0 /* PUNKBeersUITests.swift */; };
+		5B415FE51F1D90BD006C4F34 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B415FE41F1D90BD006C4F34 /* Beer.swift */; };
+		5B415FE71F1D9292006C4F34 /* GetAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B415FE61F1D9292006C4F34 /* GetAPI.swift */; };
+		5B415FE91F1D9304006C4F34 /* RequestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B415FE81F1D9304006C4F34 /* RequestAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		5B0B94CE1F1AC25A008BFFB0 /* PUNKBeersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PUNKBeersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B0B94D21F1AC25A008BFFB0 /* PUNKBeersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUNKBeersUITests.swift; sourceTree = "<group>"; };
 		5B0B94D41F1AC25A008BFFB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B415FE41F1D90BD006C4F34 /* Beer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
+		5B415FE61F1D9292006C4F34 /* GetAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAPI.swift; sourceTree = "<group>"; };
+		5B415FE81F1D9304006C4F34 /* RequestAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestAPI.swift; sourceTree = "<group>"; };
 		77276D1C4D3CE017A84F59BF /* Pods-PUNKBeers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PUNKBeers.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PUNKBeers/Pods-PUNKBeers.debug.xcconfig"; sourceTree = "<group>"; };
 		9672F6571046DD93557590E7 /* Pods_PUNKBeers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PUNKBeers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -110,6 +116,9 @@
 				5B0B94B91F1AC25A008BFFB0 /* Assets.xcassets */,
 				5B0B94BB1F1AC25A008BFFB0 /* LaunchScreen.storyboard */,
 				5B0B94BE1F1AC25A008BFFB0 /* Info.plist */,
+				5B415FE41F1D90BD006C4F34 /* Beer.swift */,
+				5B415FE61F1D9292006C4F34 /* GetAPI.swift */,
+				5B415FE81F1D9304006C4F34 /* RequestAPI.swift */,
 			);
 			path = PUNKBeers;
 			sourceTree = "<group>";
@@ -335,6 +344,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B0B94B51F1AC25A008BFFB0 /* ViewController.swift in Sources */,
+				5B415FE71F1D9292006C4F34 /* GetAPI.swift in Sources */,
+				5B415FE51F1D90BD006C4F34 /* Beer.swift in Sources */,
+				5B415FE91F1D9304006C4F34 /* RequestAPI.swift in Sources */,
 				5B0B94B31F1AC25A008BFFB0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -582,6 +594,7 @@
 				5B0B94D91F1AC25A008BFFB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B0B94DA1F1AC25A008BFFB0 /* Build configuration list for PBXNativeTarget "PUNKBeersTests" */ = {
 			isa = XCConfigurationList;
@@ -590,6 +603,7 @@
 				5B0B94DC1F1AC25A008BFFB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B0B94DD1F1AC25A008BFFB0 /* Build configuration list for PBXNativeTarget "PUNKBeersUITests" */ = {
 			isa = XCConfigurationList;
@@ -598,6 +612,7 @@
 				5B0B94DF1F1AC25A008BFFB0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
