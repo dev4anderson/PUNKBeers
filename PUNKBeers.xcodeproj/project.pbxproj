@@ -9,12 +9,13 @@
 /* Begin PBXBuildFile section */
 		4BFC563455036097BA5EFE9E /* Pods_PUNKBeers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9672F6571046DD93557590E7 /* Pods_PUNKBeers.framework */; };
 		5B0B94B31F1AC25A008BFFB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B94B21F1AC25A008BFFB0 /* AppDelegate.swift */; };
-		5B0B94B51F1AC25A008BFFB0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B94B41F1AC25A008BFFB0 /* ViewController.swift */; };
+		5B0B94B51F1AC25A008BFFB0 /* BeersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B94B41F1AC25A008BFFB0 /* BeersTableViewController.swift */; };
 		5B0B94B81F1AC25A008BFFB0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0B94B61F1AC25A008BFFB0 /* Main.storyboard */; };
 		5B0B94BA1F1AC25A008BFFB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0B94B91F1AC25A008BFFB0 /* Assets.xcassets */; };
 		5B0B94BD1F1AC25A008BFFB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0B94BB1F1AC25A008BFFB0 /* LaunchScreen.storyboard */; };
 		5B0B94C81F1AC25A008BFFB0 /* PUNKBeersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B94C71F1AC25A008BFFB0 /* PUNKBeersTests.swift */; };
 		5B0B94D31F1AC25A008BFFB0 /* PUNKBeersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0B94D21F1AC25A008BFFB0 /* PUNKBeersUITests.swift */; };
+		5B1111DF1F1EDEB9005B7C98 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B1111DE1F1EDEB9005B7C98 /* DetailViewController.swift */; };
 		5B415FE51F1D90BD006C4F34 /* Beer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B415FE41F1D90BD006C4F34 /* Beer.swift */; };
 		5B415FE71F1D9292006C4F34 /* GetAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B415FE61F1D9292006C4F34 /* GetAPI.swift */; };
 		5B415FE91F1D9304006C4F34 /* RequestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B415FE81F1D9304006C4F34 /* RequestAPI.swift */; };
@@ -41,7 +42,7 @@
 		054FF287957D890D57C0A8DB /* Pods-PUNKBeers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PUNKBeers.release.xcconfig"; path = "Pods/Target Support Files/Pods-PUNKBeers/Pods-PUNKBeers.release.xcconfig"; sourceTree = "<group>"; };
 		5B0B94AF1F1AC259008BFFB0 /* PUNKBeers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PUNKBeers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B0B94B21F1AC25A008BFFB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5B0B94B41F1AC25A008BFFB0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5B0B94B41F1AC25A008BFFB0 /* BeersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeersTableViewController.swift; sourceTree = "<group>"; };
 		5B0B94B71F1AC25A008BFFB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5B0B94B91F1AC25A008BFFB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B0B94BC1F1AC25A008BFFB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +53,7 @@
 		5B0B94CE1F1AC25A008BFFB0 /* PUNKBeersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PUNKBeersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B0B94D21F1AC25A008BFFB0 /* PUNKBeersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PUNKBeersUITests.swift; sourceTree = "<group>"; };
 		5B0B94D41F1AC25A008BFFB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B1111DE1F1EDEB9005B7C98 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		5B415FE41F1D90BD006C4F34 /* Beer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beer.swift; sourceTree = "<group>"; };
 		5B415FE61F1D9292006C4F34 /* GetAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAPI.swift; sourceTree = "<group>"; };
 		5B415FE81F1D9304006C4F34 /* RequestAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestAPI.swift; sourceTree = "<group>"; };
@@ -111,7 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				5B0B94B21F1AC25A008BFFB0 /* AppDelegate.swift */,
-				5B0B94B41F1AC25A008BFFB0 /* ViewController.swift */,
+				5B0B94B41F1AC25A008BFFB0 /* BeersTableViewController.swift */,
 				5B0B94B61F1AC25A008BFFB0 /* Main.storyboard */,
 				5B0B94B91F1AC25A008BFFB0 /* Assets.xcassets */,
 				5B0B94BB1F1AC25A008BFFB0 /* LaunchScreen.storyboard */,
@@ -119,6 +121,7 @@
 				5B415FE41F1D90BD006C4F34 /* Beer.swift */,
 				5B415FE61F1D9292006C4F34 /* GetAPI.swift */,
 				5B415FE81F1D9304006C4F34 /* RequestAPI.swift */,
+				5B1111DE1F1EDEB9005B7C98 /* DetailViewController.swift */,
 			);
 			path = PUNKBeers;
 			sourceTree = "<group>";
@@ -343,9 +346,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B0B94B51F1AC25A008BFFB0 /* ViewController.swift in Sources */,
+				5B0B94B51F1AC25A008BFFB0 /* BeersTableViewController.swift in Sources */,
 				5B415FE71F1D9292006C4F34 /* GetAPI.swift in Sources */,
 				5B415FE51F1D90BD006C4F34 /* Beer.swift in Sources */,
+				5B1111DF1F1EDEB9005B7C98 /* DetailViewController.swift in Sources */,
 				5B415FE91F1D9304006C4F34 /* RequestAPI.swift in Sources */,
 				5B0B94B31F1AC25A008BFFB0 /* AppDelegate.swift in Sources */,
 			);
