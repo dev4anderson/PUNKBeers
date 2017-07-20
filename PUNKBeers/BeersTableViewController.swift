@@ -14,7 +14,7 @@ class BeersTableViewController: UITableViewController {
     // MARK: - Properties
     var beers: [Beer] = []
     
-    // MARK: - Super methods
+    // MARK: - Methods
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -47,8 +47,6 @@ class BeersTableViewController: UITableViewController {
         return cell
     }
     
-    
-    // MARK: - Methods
     func requestBeers(){
         let api = RequestApi()
         api.requestBeers() { response in
