@@ -11,11 +11,12 @@ import UIKit
 class BeerTableViewCell: UITableViewCell {
     
     // MARK: - Outlets
-    @IBOutlet weak var ivPhoto: UIImageView!
-    @IBOutlet weak var lblDescription: UILabel!
+    @IBOutlet weak var ivPicture: UIImageView!
+    @IBOutlet weak var lblDesc: UILabel!
     @IBOutlet weak var lblAlcohol: UILabel!
+
     
-    // MARK: - Super Methods
+    // MARK: - Methods
     override func awakeFromNib() {
         super.awakeFromNib()
     }
@@ -23,8 +24,14 @@ class BeerTableViewCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
     }
+   
+    func loadImage(_ url: String){
+        let api = RequestApi()
+        api.requestPicture(url: url) { response in
+            self.ivPicture.image = response
+        }
+    }
     
-    // MARK: - Methods
     func drawBeer(_ beer: Beer){
         
         if let url = beer.imageUrl {
@@ -32,18 +39,11 @@ class BeerTableViewCell: UITableViewCell {
         }
         
         if let name = beer.name {
-            lblDescription.text = name
+            lblDesc.text = name
         }
         
         if let alcohol = beer.abv {
             lblAlcohol.text = "Teor Alcoólico: \(alcohol)"
-        }
-    }
-    
-    func loadImage(_ url: String){
-        let api = RequestApi()
-        api.requestPhoto(url: url) { response in
-            self.ivPhoto.image = response
         }
     }
     
